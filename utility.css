@@ -1,0 +1,72 @@
+.border{
+    border: 2px solid black;
+    margin: 3px;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color:black ;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 5px;
+}
+
+.m-1{
+    margin: 10px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px; /* Dark color for the thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Light color for the track */
+  }
+  
+  /* For Firefox */
+  /* Note: scrollbar-color and scrollbar-width are only supported in Firefox */
+  /* You may need to use -moz-scrollbar-color and -moz-scrollbar-width for older versions */
+  
+  /* For Firefox 64 and newer */
+  /* scrollbar-color: thumbColor trackColor; */
+  /* For Firefox 63 and older */
+  /* scrollbar-color: dark-light; */
+  
+  /* Define the colors for the thumb and track */
+
+    scrollbar-color: #333 #222;
+
+  
+  
